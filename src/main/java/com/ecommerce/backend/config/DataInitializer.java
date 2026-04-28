@@ -100,7 +100,7 @@ public class DataInitializer {
             productList.add(createProduct("Blue Pottery Vase", 
                 "Authentic Jaipur Blue Pottery floral vase.",
                 new BigDecimal("1899"), 8, "Pottery", artisan2,
-                "https://images.unsplash.com/photo-1612196808214-b7e239e5f6b7?w=800"));
+                "https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?w=1200&q=80"));
             
             productList.add(createProduct("Madhubani Painting - Tree of Life", 
                 "Original Madhubani artwork from Bihar.",
@@ -115,17 +115,17 @@ public class DataInitializer {
             productList.add(createProduct("Pashmina Shawl - Kashmir", 
                 "Luxurious handwoven Changthangi goat wool shawl.",
                 new BigDecimal("8999"), 4, "Textiles", artisan3,
-                "https://images.unsplash.com/photo-1601244005535-a48ebfdc1559?w=800"));
+                "https://source.unsplash.com/1200x900/?pashmina,shawl,kashmir"));
             
             productList.add(createProduct("Terracotta Horse - Bankura", 
                 "Symbolic folk art pottery from West Bengal.",
                 new BigDecimal("1599"), 15, "Pottery", artisan2,
-                "https://images.unsplash.com/photo-1604076913837-52ab5f0e2f10?w=800"));
+                "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&q=80"));
             
             productList.add(createProduct("Sandalwood Carved Box", 
                 "Fragranced sandalwood keepsake box from Mysore.",
                 new BigDecimal("3299"), 7, "Wood Craft", artisan1,
-                "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800"));
+                "https://source.unsplash.com/1200x900/?sandalwood,wood,carved,box"));
             
             productList.add(createProduct("Bidriware Silver Inlay Vase", 
                 "14th century metalware heritage from Bidar.",
@@ -140,7 +140,7 @@ public class DataInitializer {
             productList.add(createProduct("Warli Art Wall Decor", 
                 "Tribal art canvas depicting village life.",
                 new BigDecimal("1299"), 10, "Paintings", artisan2,
-                "https://images.unsplash.com/photo-1578301978963-f42b5ec0a50b?w=800"));
+                "https://source.unsplash.com/1200x900/?warli,art,painting"));
             
             productList.add(createProduct("Jute Macrame Plant Hanger", 
                 "Eco-friendly hand-knotted jute fiber decor.",
@@ -165,7 +165,7 @@ public class DataInitializer {
             productList.add(createProduct("Cane & Bamboo Basket Set", 
                 "Intricate bamboo weaving from Northeast India.",
                 new BigDecimal("1499"), 14, "Home Decor", artisan2,
-                "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800"));
+                "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=1200&q=80"));
 
             productRepository.saveAll(productList);
 

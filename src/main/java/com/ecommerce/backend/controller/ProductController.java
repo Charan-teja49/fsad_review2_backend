@@ -69,6 +69,8 @@ public class ProductController {
 
         List<ProductDto> dtos = products.stream().map(this::toDto).collect(Collectors.toList());
 
+        System.out.println("[DEBUG] getAllProducts fetched products count = " + (products == null ? 0 : products.size()));
+
         Map<String, Object> response = new HashMap<>();
         response.put("products", dtos);
         response.put("total", dtos.size());
